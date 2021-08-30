@@ -54,6 +54,8 @@ def load_envs():
 
 def main():
     load_envs()
+    my_prop = send_without_parameter("/v1/accounts")
+    print(my_prop)
 
 
 if __name__ == '__main__':
